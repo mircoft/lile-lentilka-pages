@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lile Lentilka | Pripravujeme</title>
+  <meta name="description" content="Lile Lentilka - pripravujeme novú stránku. Sledujte nás na sociálnych sieťach.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fff8f0;
+      --card: #ffffff;
+      --text: #2c1f1f;
+      --accent: #e56b8a;
+      --muted: #7a6666;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #ffe8ef, var(--bg));
+      color: var(--text);
+      padding: 24px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 620px;
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: 0 14px 40px rgba(54, 20, 27, 0.12);
+      padding: 42px 28px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin: 0 0 10px;
+      letter-spacing: 0.4px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .socials {
+      margin-top: 28px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .socials a {
+      text-decoration: none;
+      border: 1px solid #f3d2dc;
+      border-radius: 999px;
+      padding: 10px 16px;
+      color: var(--accent);
+      font-weight: 700;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .socials a:hover {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Pripravujeme</h1>
+    <p>Nová stránka Lile Lentilka je vo vývoji.<br>Sledujte nás na sociálnych sieťach.</p>
+    <div class="socials">
+      <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+    </div>
+  </main>
+</body>
+</html>
