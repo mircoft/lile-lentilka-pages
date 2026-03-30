@@ -59,6 +59,16 @@
       letter-spacing: 0.3px;
     }
 
+    .hero-photo {
+      width: min(280px, 70vw);
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 20px;
+      margin: 0 auto 20px;
+      box-shadow: 0 12px 28px rgba(2, 6, 23, 0.16);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+    }
+
     p {
       margin: 0;
       color: var(--ink-600);
@@ -111,6 +121,7 @@
 </head>
 <body>
   <main>
+    <img class="hero-photo" src="https://lili-lentilka.onrender.com/assets/portrait.png" alt="LiLiLentilka hero fotka">
     <h1>Pripravujeme niečo veľké</h1>
     <p>Nová stránka LiLiLentilka je vo vývoji.<br>Sledujte nás na sociálnych sieťach.</p>
     <div class="socials">
